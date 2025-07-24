@@ -30,3 +30,9 @@ while (temp) {
 }
 
 return head;
+
+    temp->data = x;
+    temp = temp->next;
+}
+
+return head;
