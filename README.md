@@ -19,17 +19,6 @@ This effectively reverses the list's node values while keeping the node connecti
 - Time complexity: O(n), where n is the number of nodes
 - Space complexity: O(n) due to usage of stack to store node values
 
-## Code Example
-
-temp = head;
-while (temp) {
-    int x = st.top();
-    st.pop();
-    temp->data = x;
-    temp = temp->next;
-}
-
-return head;
 
     temp->data = x;
     temp = temp->next;
