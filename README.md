@@ -20,8 +20,3 @@ This effectively reverses the list's node values while keeping the node connecti
 - Space complexity: O(n) due to usage of stack to store node values
 
 
-    temp->data = x;
-    temp = temp->next;
-}
-
-return head;
